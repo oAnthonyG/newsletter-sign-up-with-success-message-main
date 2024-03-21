@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(231, 7%, 60%);
+  --Charcoal-Grey: hsl(235, 18%, 26%);
+  --Dark-Slate-Grey: hsl(234, 29%, 20%);
+  --tomato: hsl(4, 100%, 67%);
+  --tomato-transparent: hsl(4, 100%, 67%);
+
+
+  @media screen and (max-width: 675px) {
+    font-size: 93.75%;
+  }
+
+  @media screen and (max-width: 1080px) {
+    font-size: 93.75%;
+  }
+
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
